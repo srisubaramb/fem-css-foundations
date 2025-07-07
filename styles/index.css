@@ -1,0 +1,42 @@
+@import 'base.css';
+
+
+
+
+/* main styles **/
+
+
+.home .main__heading {
+  font-size: 128px;
+  font-weight: 700;
+}
+.home .main__subheading {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+/*Button Styles*/
+.button__image {
+  width: 34px;
+  height: 38px;
+  vertical-align: middle;
+}
+.button--primary {
+  background-color: var(--button-primary-bg-color);
+  color: var(--button-primary-text-color);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.button--secondary {
+  background-color: var(--button-secondary-bg-color);
+  color: var(--button-secondary-text-color);
+  font-size: 24px;
+  font-weight: 700;
+}
+.button__wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
